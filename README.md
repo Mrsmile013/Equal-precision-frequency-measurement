@@ -45,12 +45,14 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PE0 对被测信号进行计数   TIM4  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PA15 对标准信号进行测量（测占空比） TIM2  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PD4 被测信号信号沿（测占空比）EXTI_Line4  
-  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PD1 按键      
+
 如何接：  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PA8 - PA15   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PA9 - PA0   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PB5 - PE0  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PB4 - PD4  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;PD1 - KEY  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;lcd接法具体看lcd1602.c文件  
   
 作者的话：  
